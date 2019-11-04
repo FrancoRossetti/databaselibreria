@@ -30,10 +30,15 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgv_Libro = new System.Windows.Forms.DataGridView();
-            this.label21 = new System.Windows.Forms.Label();
-            this.txt_Codigo_Libro = new System.Windows.Forms.TextBox();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txt_Codigo_Libro = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnGuardar_Aut = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Libro)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,8 +62,20 @@
             this.dgv_Libro.Name = "dgv_Libro";
             this.dgv_Libro.ReadOnly = true;
             this.dgv_Libro.RowTemplate.Height = 30;
-            this.dgv_Libro.Size = new System.Drawing.Size(250, 432);
+            this.dgv_Libro.Size = new System.Drawing.Size(250, 209);
             this.dgv_Libro.TabIndex = 54;
+            // 
+            // Fecha
+            // 
+            this.Fecha.HeaderText = "Fecha";
+            this.Fecha.Name = "Fecha";
+            this.Fecha.ReadOnly = true;
+            // 
+            // Precio
+            // 
+            this.Precio.HeaderText = "Precio";
+            this.Precio.Name = "Precio";
+            this.Precio.ReadOnly = true;
             // 
             // label21
             // 
@@ -79,24 +96,66 @@
             this.txt_Codigo_Libro.Size = new System.Drawing.Size(123, 31);
             this.txt_Codigo_Libro.TabIndex = 60;
             // 
-            // Fecha
+            // label1
             // 
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
-            this.Fecha.ReadOnly = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(16, 115);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(125, 24);
+            this.label1.TabIndex = 61;
+            this.label1.Text = "Nuevo Precio";
             // 
-            // Precio
+            // dateTimePicker1
             // 
-            this.Precio.HeaderText = "Precio";
-            this.Precio.Name = "Precio";
-            this.Precio.ReadOnly = true;
+            this.dateTimePicker1.Location = new System.Drawing.Point(148, 160);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(122, 20);
+            this.dateTimePicker1.TabIndex = 62;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(147, 111);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(123, 31);
+            this.textBox1.TabIndex = 63;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(78, 158);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(64, 24);
+            this.label2.TabIndex = 64;
+            this.label2.Text = "Fecha";
+            // 
+            // btnGuardar_Aut
+            // 
+            this.btnGuardar_Aut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardar_Aut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar_Aut.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar_Aut.Location = new System.Drawing.Point(180, 200);
+            this.btnGuardar_Aut.Name = "btnGuardar_Aut";
+            this.btnGuardar_Aut.Size = new System.Drawing.Size(90, 39);
+            this.btnGuardar_Aut.TabIndex = 65;
+            this.btnGuardar_Aut.Text = "Guardar";
+            this.btnGuardar_Aut.UseVisualStyleBackColor = true;
             // 
             // Form_PreciosLibros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(111)))), ((int)(((byte)(155)))));
-            this.ClientSize = new System.Drawing.Size(550, 474);
+            this.ClientSize = new System.Drawing.Size(547, 256);
+            this.Controls.Add(this.btnGuardar_Aut);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Codigo_Libro);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.dgv_Libro);
@@ -115,5 +174,10 @@
         private System.Windows.Forms.TextBox txt_Codigo_Libro;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnGuardar_Aut;
     }
 }
