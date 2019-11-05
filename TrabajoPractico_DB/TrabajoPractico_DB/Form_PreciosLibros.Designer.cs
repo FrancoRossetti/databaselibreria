@@ -35,10 +35,10 @@
             this.label21 = new System.Windows.Forms.Label();
             this.txt_Codigo_Libro = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker_FechaNueva = new System.Windows.Forms.DateTimePicker();
+            this.txt_PrecioNuevo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnGuardar_Aut = new System.Windows.Forms.Button();
+            this.btnGuardar_NuevoPrecio = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Libro)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,20 +107,20 @@
             this.label1.TabIndex = 61;
             this.label1.Text = "Nuevo Precio";
             // 
-            // dateTimePicker1
+            // dateTimePicker_FechaNueva
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(148, 160);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(122, 20);
-            this.dateTimePicker1.TabIndex = 62;
+            this.dateTimePicker_FechaNueva.Location = new System.Drawing.Point(148, 160);
+            this.dateTimePicker_FechaNueva.Name = "dateTimePicker_FechaNueva";
+            this.dateTimePicker_FechaNueva.Size = new System.Drawing.Size(122, 20);
+            this.dateTimePicker_FechaNueva.TabIndex = 62;
             // 
-            // textBox1
+            // txt_PrecioNuevo
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(147, 111);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(123, 31);
-            this.textBox1.TabIndex = 63;
+            this.txt_PrecioNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_PrecioNuevo.Location = new System.Drawing.Point(147, 111);
+            this.txt_PrecioNuevo.Name = "txt_PrecioNuevo";
+            this.txt_PrecioNuevo.Size = new System.Drawing.Size(123, 31);
+            this.txt_PrecioNuevo.TabIndex = 63;
             // 
             // label2
             // 
@@ -133,17 +133,17 @@
             this.label2.TabIndex = 64;
             this.label2.Text = "Fecha";
             // 
-            // btnGuardar_Aut
+            // btnGuardar_NuevoPrecio
             // 
-            this.btnGuardar_Aut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardar_Aut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar_Aut.ForeColor = System.Drawing.Color.White;
-            this.btnGuardar_Aut.Location = new System.Drawing.Point(180, 200);
-            this.btnGuardar_Aut.Name = "btnGuardar_Aut";
-            this.btnGuardar_Aut.Size = new System.Drawing.Size(90, 39);
-            this.btnGuardar_Aut.TabIndex = 65;
-            this.btnGuardar_Aut.Text = "Guardar";
-            this.btnGuardar_Aut.UseVisualStyleBackColor = true;
+            this.btnGuardar_NuevoPrecio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardar_NuevoPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar_NuevoPrecio.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar_NuevoPrecio.Location = new System.Drawing.Point(180, 200);
+            this.btnGuardar_NuevoPrecio.Name = "btnGuardar_NuevoPrecio";
+            this.btnGuardar_NuevoPrecio.Size = new System.Drawing.Size(90, 39);
+            this.btnGuardar_NuevoPrecio.TabIndex = 65;
+            this.btnGuardar_NuevoPrecio.Text = "Guardar";
+            this.btnGuardar_NuevoPrecio.UseVisualStyleBackColor = true;
             // 
             // Form_PreciosLibros
             // 
@@ -151,10 +151,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(111)))), ((int)(((byte)(155)))));
             this.ClientSize = new System.Drawing.Size(547, 256);
-            this.Controls.Add(this.btnGuardar_Aut);
+            this.Controls.Add(this.btnGuardar_NuevoPrecio);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.txt_PrecioNuevo);
+            this.Controls.Add(this.dateTimePicker_FechaNueva);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Codigo_Libro);
             this.Controls.Add(this.label21);
@@ -175,9 +175,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_FechaNueva;
+        private System.Windows.Forms.TextBox txt_PrecioNuevo;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnGuardar_Aut;
+        private System.Windows.Forms.Button btnGuardar_NuevoPrecio;
     }
 }

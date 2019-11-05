@@ -124,27 +124,28 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btnCancelar_Alquiler = new System.Windows.Forms.Button();
+            this.btnGuardar_Alquiler = new System.Windows.Forms.Button();
+            this.txt_CondPago = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.cmb_CodEmpl_Alq = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker_FechaRetiro = new System.Windows.Forms.DateTimePicker();
+            this.label32 = new System.Windows.Forms.Label();
+            this.dateTimePicker_FechaReal = new System.Windows.Forms.DateTimePicker();
+            this.label31 = new System.Windows.Forms.Label();
+            this.dgv_Alquileres = new System.Windows.Forms.DataGridView();
             this.label30 = new System.Windows.Forms.Label();
             this.Cmb_CodLibro_Alquiler = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker_FechaEstimada = new System.Windows.Forms.DateTimePicker();
             this.label29 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_NroDoc_Alquiler = new System.Windows.Forms.TextBox();
             this.Cmb_TipoDoc_Alquiler = new System.Windows.Forms.ComboBox();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label31 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
+            this.Cod_Libro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fecha_Retiro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fecha_Estimada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tab.SuspendLayout();
             this.tab_Autores.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Autores)).BeginInit();
@@ -155,7 +156,7 @@
             this.tab_Libros.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Libro)).BeginInit();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Alquileres)).BeginInit();
             this.SuspendLayout();
             // 
             // tab
@@ -1170,20 +1171,22 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(111)))), ((int)(((byte)(159)))));
-            this.tabPage1.Controls.Add(this.textBox2);
+            this.tabPage1.Controls.Add(this.btnCancelar_Alquiler);
+            this.tabPage1.Controls.Add(this.btnGuardar_Alquiler);
+            this.tabPage1.Controls.Add(this.txt_CondPago);
             this.tabPage1.Controls.Add(this.label34);
             this.tabPage1.Controls.Add(this.label33);
-            this.tabPage1.Controls.Add(this.comboBox1);
-            this.tabPage1.Controls.Add(this.dateTimePicker3);
+            this.tabPage1.Controls.Add(this.cmb_CodEmpl_Alq);
+            this.tabPage1.Controls.Add(this.dateTimePicker_FechaRetiro);
             this.tabPage1.Controls.Add(this.label32);
-            this.tabPage1.Controls.Add(this.dateTimePicker2);
+            this.tabPage1.Controls.Add(this.dateTimePicker_FechaReal);
             this.tabPage1.Controls.Add(this.label31);
-            this.tabPage1.Controls.Add(this.dataGridView1);
+            this.tabPage1.Controls.Add(this.dgv_Alquileres);
             this.tabPage1.Controls.Add(this.label30);
             this.tabPage1.Controls.Add(this.Cmb_CodLibro_Alquiler);
-            this.tabPage1.Controls.Add(this.dateTimePicker1);
+            this.tabPage1.Controls.Add(this.dateTimePicker_FechaEstimada);
             this.tabPage1.Controls.Add(this.label29);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.txt_NroDoc_Alquiler);
             this.tabPage1.Controls.Add(this.Cmb_TipoDoc_Alquiler);
             this.tabPage1.Controls.Add(this.label28);
             this.tabPage1.Controls.Add(this.label27);
@@ -1193,6 +1196,131 @@
             this.tabPage1.Size = new System.Drawing.Size(1194, 425);
             this.tabPage1.TabIndex = 4;
             this.tabPage1.Text = "Alquileres";
+            // 
+            // btnCancelar_Alquiler
+            // 
+            this.btnCancelar_Alquiler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar_Alquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar_Alquiler.ForeColor = System.Drawing.Color.White;
+            this.btnCancelar_Alquiler.Location = new System.Drawing.Point(680, 319);
+            this.btnCancelar_Alquiler.Name = "btnCancelar_Alquiler";
+            this.btnCancelar_Alquiler.Size = new System.Drawing.Size(93, 39);
+            this.btnCancelar_Alquiler.TabIndex = 70;
+            this.btnCancelar_Alquiler.Text = "Cancelar";
+            this.btnCancelar_Alquiler.UseVisualStyleBackColor = true;
+            // 
+            // btnGuardar_Alquiler
+            // 
+            this.btnGuardar_Alquiler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardar_Alquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar_Alquiler.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar_Alquiler.Location = new System.Drawing.Point(584, 319);
+            this.btnGuardar_Alquiler.Name = "btnGuardar_Alquiler";
+            this.btnGuardar_Alquiler.Size = new System.Drawing.Size(90, 39);
+            this.btnGuardar_Alquiler.TabIndex = 72;
+            this.btnGuardar_Alquiler.Text = "Guardar";
+            this.btnGuardar_Alquiler.UseVisualStyleBackColor = true;
+            // 
+            // txt_CondPago
+            // 
+            this.txt_CondPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_CondPago.Location = new System.Drawing.Point(328, 273);
+            this.txt_CondPago.Name = "txt_CondPago";
+            this.txt_CondPago.Size = new System.Drawing.Size(250, 31);
+            this.txt_CondPago.TabIndex = 69;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.White;
+            this.label34.Location = new System.Drawing.Point(150, 277);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(172, 24);
+            this.label34.TabIndex = 68;
+            this.label34.Text = "Condición de Pago";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.White;
+            this.label33.Location = new System.Drawing.Point(159, 239);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(163, 24);
+            this.label33.TabIndex = 67;
+            this.label33.Text = "Código Empleado";
+            // 
+            // cmb_CodEmpl_Alq
+            // 
+            this.cmb_CodEmpl_Alq.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmb_CodEmpl_Alq.FormattingEnabled = true;
+            this.cmb_CodEmpl_Alq.Location = new System.Drawing.Point(328, 239);
+            this.cmb_CodEmpl_Alq.Name = "cmb_CodEmpl_Alq";
+            this.cmb_CodEmpl_Alq.Size = new System.Drawing.Size(250, 28);
+            this.cmb_CodEmpl_Alq.TabIndex = 66;
+            // 
+            // dateTimePicker_FechaRetiro
+            // 
+            this.dateTimePicker_FechaRetiro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker_FechaRetiro.Location = new System.Drawing.Point(328, 48);
+            this.dateTimePicker_FechaRetiro.Name = "dateTimePicker_FechaRetiro";
+            this.dateTimePicker_FechaRetiro.Size = new System.Drawing.Size(250, 23);
+            this.dateTimePicker_FechaRetiro.TabIndex = 65;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.White;
+            this.label32.Location = new System.Drawing.Point(204, 48);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(118, 24);
+            this.label32.TabIndex = 64;
+            this.label32.Text = "Fecha Retiro";
+            // 
+            // dateTimePicker_FechaReal
+            // 
+            this.dateTimePicker_FechaReal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker_FechaReal.Location = new System.Drawing.Point(328, 210);
+            this.dateTimePicker_FechaReal.Name = "dateTimePicker_FechaReal";
+            this.dateTimePicker_FechaReal.Size = new System.Drawing.Size(250, 23);
+            this.dateTimePicker_FechaReal.TabIndex = 63;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.Location = new System.Drawing.Point(115, 210);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(207, 24);
+            this.label31.TabIndex = 62;
+            this.label31.Text = "Fecha Real Devolución";
+            // 
+            // dgv_Alquileres
+            // 
+            this.dgv_Alquileres.AllowUserToDeleteRows = false;
+            this.dgv_Alquileres.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_Alquileres.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Alquileres.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Cod_Libro,
+            this.Fecha_Retiro,
+            this.Fecha_Estimada});
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(238)))), ((int)(((byte)(218)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(202)))), ((int)(((byte)(153)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv_Alquileres.DefaultCellStyle = dataGridViewCellStyle5;
+            this.dgv_Alquileres.Location = new System.Drawing.Point(584, 6);
+            this.dgv_Alquileres.Name = "dgv_Alquileres";
+            this.dgv_Alquileres.ReadOnly = true;
+            this.dgv_Alquileres.RowTemplate.Height = 30;
+            this.dgv_Alquileres.Size = new System.Drawing.Size(391, 307);
+            this.dgv_Alquileres.TabIndex = 61;
             // 
             // label30
             // 
@@ -1214,13 +1342,13 @@
             this.Cmb_CodLibro_Alquiler.Size = new System.Drawing.Size(250, 28);
             this.Cmb_CodLibro_Alquiler.TabIndex = 59;
             // 
-            // dateTimePicker1
+            // dateTimePicker_FechaEstimada
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(328, 181);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(250, 23);
-            this.dateTimePicker1.TabIndex = 58;
+            this.dateTimePicker_FechaEstimada.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker_FechaEstimada.Location = new System.Drawing.Point(328, 181);
+            this.dateTimePicker_FechaEstimada.Name = "dateTimePicker_FechaEstimada";
+            this.dateTimePicker_FechaEstimada.Size = new System.Drawing.Size(250, 23);
+            this.dateTimePicker_FechaEstimada.TabIndex = 58;
             // 
             // label29
             // 
@@ -1233,13 +1361,13 @@
             this.label29.TabIndex = 57;
             this.label29.Text = "Fecha Estimada Devolución";
             // 
-            // textBox1
+            // txt_NroDoc_Alquiler
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(328, 145);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 31);
-            this.textBox1.TabIndex = 22;
+            this.txt_NroDoc_Alquiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_NroDoc_Alquiler.Location = new System.Drawing.Point(328, 145);
+            this.txt_NroDoc_Alquiler.Name = "txt_NroDoc_Alquiler";
+            this.txt_NroDoc_Alquiler.Size = new System.Drawing.Size(250, 31);
+            this.txt_NroDoc_Alquiler.TabIndex = 22;
             // 
             // Cmb_TipoDoc_Alquiler
             // 
@@ -1278,134 +1406,26 @@
             this.label27.TabIndex = 9;
             this.label27.Text = "Tipo Documento Lector";
             // 
-            // dataGridView1
+            // Cod_Libro
             // 
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(238)))), ((int)(((byte)(218)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(202)))), ((int)(((byte)(153)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView1.Location = new System.Drawing.Point(584, 6);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowTemplate.Height = 30;
-            this.dataGridView1.Size = new System.Drawing.Size(464, 307);
-            this.dataGridView1.TabIndex = 61;
+            this.Cod_Libro.HeaderText = "Codigo Libro";
+            this.Cod_Libro.Name = "Cod_Libro";
+            this.Cod_Libro.ReadOnly = true;
+            this.Cod_Libro.Width = 50;
             // 
-            // dataGridViewTextBoxColumn5
+            // Fecha_Retiro
             // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Codigo";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Width = 50;
+            this.Fecha_Retiro.HeaderText = "Fecha Retiro";
+            this.Fecha_Retiro.Name = "Fecha_Retiro";
+            this.Fecha_Retiro.ReadOnly = true;
+            this.Fecha_Retiro.Width = 150;
             // 
-            // dataGridViewTextBoxColumn6
+            // Fecha_Estimada
             // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "Titulo";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            this.dataGridViewTextBoxColumn6.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Categoria";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.HeaderText = "Cant de Pag";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            this.dataGridViewTextBoxColumn8.Width = 70;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Location = new System.Drawing.Point(328, 210);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(250, 23);
-            this.dateTimePicker2.TabIndex = 63;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(115, 210);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(207, 24);
-            this.label31.TabIndex = 62;
-            this.label31.Text = "Fecha Real Devolución";
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker3.Location = new System.Drawing.Point(328, 48);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(250, 23);
-            this.dateTimePicker3.TabIndex = 65;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(204, 48);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(118, 24);
-            this.label32.TabIndex = 64;
-            this.label32.Text = "Fecha Retiro";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(159, 239);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(163, 24);
-            this.label33.TabIndex = 67;
-            this.label33.Text = "Código Empleado";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(328, 239);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(250, 28);
-            this.comboBox1.TabIndex = 66;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(328, 273);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(250, 31);
-            this.textBox2.TabIndex = 69;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(150, 277);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(172, 24);
-            this.label34.TabIndex = 68;
-            this.label34.Text = "Condición de Pago";
+            this.Fecha_Estimada.HeaderText = "Fecha Estimada";
+            this.Fecha_Estimada.Name = "Fecha_Estimada";
+            this.Fecha_Estimada.ReadOnly = true;
+            this.Fecha_Estimada.Width = 150;
             // 
             // Form1
             // 
@@ -1431,7 +1451,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Libro)).EndInit();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Alquileres)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1533,23 +1553,24 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.ComboBox Cmb_CodLibro_Alquiler;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_FechaEstimada;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_NroDoc_Alquiler;
         private System.Windows.Forms.ComboBox Cmb_TipoDoc_Alquiler;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_CondPago;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.ComboBox cmb_CodEmpl_Alq;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_FechaRetiro;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker_FechaReal;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridView dgv_Alquileres;
+        private System.Windows.Forms.Button btnCancelar_Alquiler;
+        private System.Windows.Forms.Button btnGuardar_Alquiler;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cod_Libro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_Retiro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_Estimada;
     }
 }
 

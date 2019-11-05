@@ -14,3 +14,19 @@ C:\Users\agufl\source\repos\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\Trab
 C:\Users\agufl\source\repos\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.pdb
 C:\Users\agufl\source\repos\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\EFCRUDAPP.Form1.resources
 C:\Users\agufl\source\repos\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.Form_PreciosLibros.resources
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\bin\Debug\TrabajoPractico_DB.exe.config
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\bin\Debug\TrabajoPractico_DB.exe
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\bin\Debug\TrabajoPractico_DB.pdb
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\bin\Debug\EntityFramework.dll
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\bin\Debug\EntityFramework.xml
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.csprojAssemblyReference.cache
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\EFCRUDAPP.Form1.resources
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.Form_PreciosLibros.resources
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.Properties.Resources.resources
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.csproj.GenerateResource.cache
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.csproj.CoreCompileInputs.cache
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.csproj.CopyComplete
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.exe
+C:\Users\agufl\OneDrive\Documentos\TP BD\TrabajoPractico_DB\TrabajoPractico_DB\obj\Debug\TrabajoPractico_DB.pdb
